@@ -2199,6 +2199,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.TextSize = 15.000
 			Title.TextTransparency = 0.300
 			Title.TextXAlignment = Enum.TextXAlignment.Left
+			Title.RichText = true
 			
 			if center then
 				Title.Position += UDim2.new(0.35, 0, -0.3, 0)
