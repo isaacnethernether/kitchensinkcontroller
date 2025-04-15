@@ -2198,7 +2198,6 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title.TextSize = 15.000
 			Title.TextTransparency = 0.300
-			Title.TextXAlignment = Enum.TextXAlignment.Left
 			Title.RichText = true
 			
 			if center then
