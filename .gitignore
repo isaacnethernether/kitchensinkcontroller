@@ -2205,6 +2205,8 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			if center then
 				Title.Position += UDim2.new(0.35, 0, -0.3, 0)
 				Title.TextXAlignment = Enum.TextXAlignment.Center
+				Title.TextScaled = false
+				Title.Size = UDim2.new(0, 113, 0, 42)
 				Label.Transparency = 1
 			end
 
