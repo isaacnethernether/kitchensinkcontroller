@@ -2208,6 +2208,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 				Title.TextScaled = false
 				Title.Size = UDim2.new(0, 113, 0, 42)
 				Label.Transparency = 1
+				Title.Size = UDim2.new(0, 457, 0, 42)
 			end
 
 			
